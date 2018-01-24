@@ -1,0 +1,8 @@
+<launch>
+	
+	<node pkg="walk" name="publisher" type="publish.py" output="screen"/>
+
+	<node pkg="walk" name="subscriber" type="listen.py" output="screen"/>
+	
+	
+</launch>
